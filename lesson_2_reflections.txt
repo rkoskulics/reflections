@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 When you initialize a repo it creates a hidden git file and uses that to track changes.  You can't track changes without it.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area does not reflect saving changes, whereas the repo holds all the changes.  You also can't add changes directly to it as you can a working directory.  It adds the value of just changing the files you want to change.
+How can you use the staging area to make sure you have one commit per logical change?
+You can use the command git diff to see the difference between the working directory and the staging area.  Using git diff --stage shows the difference between the staging area and the most recent commit.  Git diff commit1 commit2 shows the differences between the two commits.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Adding new features would help keep the history organized.  Also having collaborators helps.
