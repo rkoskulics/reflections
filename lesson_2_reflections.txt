@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repo it creates a hidden git file and uses that to track changes.  You can't track changes without it.
