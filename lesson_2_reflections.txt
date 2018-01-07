@@ -10,3 +10,5 @@ How do the diagrams help you visualize the branch structure?
 It is difficult to keep more than one or two branches and commits in mind.  Diagramming it out makes it clear exactly where one is and how to get back to master
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches combines the code that each branch has, as well as removes code that at least one of the branches removed.  We represent it with arrows and commits to make it clear which is the parent.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging keeps the versions that can be merged connected properly, whereas doing a manual merge requires going through the code and and finding the differences oneself.  Automatic merges, however, can miss simple changes, like changing code into a function.
