@@ -6,3 +6,5 @@ What is the benefit of having a copy of the last known state of the remote store
 Having the last known copy of the remote stored locally will help prevent conflicts when collaborating with others on the same branch
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without using git or GitHub you would have to share a single file between multiple people.  Only one person could work on it at a time.  This would be inefficient, but would prevent conflicts and would be a simpler workflow.
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Working in separate branch can prevent conflicts on a single file, and can allow different experiments on code.  But it can lead to difficult conflicts when merging.  Working on a master means that the information is available publicly when it may not be ready to be.
